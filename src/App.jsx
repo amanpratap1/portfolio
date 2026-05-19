@@ -1,12 +1,11 @@
 import Navbar from "./components/Navbar";
 import { motion } from "framer-motion";
 import { TypeAnimation } from "react-type-animation";
-import ParticlesBackground from "./components/ParticlesBackground";
 
 export default function App() {
   return (
     <div className="relative min-h-screen bg-gradient-to-b from-black via-zinc-950 to-black text-white overflow-x-hidden">
-      <ParticlesBackground />
+
 
       <Navbar />
 
